@@ -1,9 +1,8 @@
 # DivEA
 
-This repo is for reproducing our work *High-quality Task Division for Large-scale Entity Alignment*, which has been accepted at CIKM 2022
-([arXiv](High-quality Task Division for Large-scale Entity Alignment)).
+This repo is for reproducing our work [High-quality Task Division for Large-scale Entity Alignment](https://dl.acm.org/doi/10.1145/3511808.3557352), which has been accepted at CIKM 2022.
 
-Download the code and [data](https://www.dropbox.com/sh/1ecy19x7j6f4bak/AAA4rY28rizHe1AFlNVlYEAqa?dl=0). The structure of folders should be organized as below
+Download the code and [data](https://www.dropbox.com/sh/1ecy19x7j6f4bak/AAA4rY28rizHe1AFlNVlYEAqa?dl=0). The structure of folders should be organized as below:
 ```text
 divea/
 |- datasets/    # datasets are put under this folder
@@ -55,7 +54,18 @@ The scripts for running our method with GCN-Align are put under `scripts2/`. The
 
 
 ## Citation
-tab
+```
+@inproceedings{liu2022high,
+  author = {Liu, Bing and Hua, Wen and Zuccon, Guido and Zhao, Genghong and Zhang, Xia},
+  title = {High-Quality Task Division for Large-Scale Entity Alignment},
+  booktitle = {Proceedings of the 31st ACM International Conference on Information & Knowledge Management},
+  series = {CIKM'22},
+  pages = {1258–1268},
+  year = {2022},
+  location = {Atlanta, GA, USA},
+  doi = {10.1145/3511808.3557352}
+}
+```
 
 ## Acknowledgement
 
